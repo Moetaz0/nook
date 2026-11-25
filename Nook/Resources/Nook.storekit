@@ -1,0 +1,20 @@
+{
+  "identifier" : "A1B2C3D4",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "2.99",
+      "familyShareable" : false,
+      "internalID" : "6740000001",
+      "localizations" : [
+        { "description" : "Remove ads and unlock exclusive pixel avatars", "displayName" : "Nook+", "locale" : "en_US" }
+      ],
+      "productID" : "app.nook.plus",
+      "referenceName" : "Nook+",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {},
+  "subscriptionGroups" : [],
+  "version" : { "major" : 3, "minor" : 0 }
+}

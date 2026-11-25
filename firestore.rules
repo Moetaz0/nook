@@ -1,0 +1,12 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /spots/{id}      { allow read: if true; allow write: if request.auth != null; }
+    match /checkins/{id}   { allow read: if request.auth != null; allow create: if request.auth != null && request.resource.data.uid == request.auth.uid; }
+    match /reviews/{id}    { allow read: if true; allow create: if request.auth != null && request.resource.data.uid == request.auth.uid
+                             && request.resource.data.comment.size() <= 200; }
+    match /usernames/{p}   { allow read: if true; allow create: if request.auth != null; }
+    match /users/{uid}     { allow read: if request.auth != null; allow write: if request.auth.uid == uid;
+      match /favorites/{f} { allow read, write: if request.auth.uid == uid; } }
+  }
+}

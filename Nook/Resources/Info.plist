@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key><string>fr</string>
+	<key>CFBundleExecutable</key><string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+	<key>CFBundleName</key><string>Nook</string>
+	<key>CFBundleDisplayName</key><string>Nook</string>
+	<key>CFBundlePackageType</key><string>APPL</string>
+	<key>CFBundleShortVersionString</key><string>1.0</string>
+	<key>CFBundleVersion</key><string>1</string>
+	<key>CFBundleLocalizations</key>
+	<array><string>fr</string><string>en</string><string>ar</string></array>
+	<key>LSRequiresIPhoneOS</key><true/>
+	<key>UILaunchScreen</key><dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array><string>UIInterfaceOrientationPortrait</string></array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Nook utilise ta position pour trouver les spots d'étude autour de toi. / Nook uses your location to find study spots nearby.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Optionnel : mesurer le bruit ambiant. / Optional: measure ambient noise.</string>
+	<key>GADApplicationIdentifier</key><string>ca-app-pub-3940256099942544~1458002511</string>
+	<key>SKAdNetworkItems</key>
+	<array><dict><key>SKAdNetworkIdentifier</key><string>cstr6suwn9.skadnetwork</string></dict></array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array><string>com.googleusercontent.apps.691656436639-u27d34j77u7t9r3otvj2ro0h0ibl1nm7</string></array>
+		</dict>
+	</array>
+</dict>
+</plist>

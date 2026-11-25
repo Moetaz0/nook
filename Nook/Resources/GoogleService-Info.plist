@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>691656436639-u27d34j77u7t9r3otvj2ro0h0ibl1nm7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.691656436639-u27d34j77u7t9r3otvj2ro0h0ibl1nm7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCT0MZuaOd2VBw1qnUu0hth-YdYY6f3IUY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>691656436639</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>app.nook.Nook</string>
+	<key>PROJECT_ID</key>
+	<string>nook-9a74a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nook-9a74a.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:691656436639:ios:7047cbc48cede0cd832baa</string>
+</dict>
+</plist>

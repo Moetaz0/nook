@@ -1,0 +1,1 @@
+Déposer ici PressStart2P-Regular.ttf, Silkscreen-Regular.ttf et Cairo-Bold.ttf (Google Fonts, gratuites), puis les déclarer dans Info.plist > UIAppFonts. L'app fonctionne sans (police monospaced de secours).
